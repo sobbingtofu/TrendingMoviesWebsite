@@ -1,0 +1,125 @@
+body {
+    margin: 0px 0px 0px 0px;
+}
+.backdrop-container {
+    position: relative;
+    height: 450px;
+}
+
+.title-rating-genres
+{
+    margin: 0px auto 0px auto;
+    width:1450px;
+    position: absolute;
+    bottom: 8%;
+    display:flex;
+    align-items: baseline;
+    left: 12%;
+}
+
+.title {
+    color:aliceblue;
+    font-weight: 900;
+    max-width:62%;
+    left:30%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 40px;
+    font-size: 72px;
+}
+.rating {
+    color:aliceblue;
+    font-size: 24px;
+    font-weight: 900;
+    margin:auto auto 10px auto;
+}
+
+.genres {
+    flex-grow:1;
+    text-align: end;
+    color:aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    margin:auto auto 10px auto;
+}
+
+
+.backdrop-wallpaper {
+    position: absolute;
+    background-size: cover;
+    background-position: 18% 18%;
+    width: 100%;
+    height: 100%;
+}
+
+.backdrop-wallpaper-dim {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 32.47%, rgba(0, 0, 0, 0.6) 67.36%, rgba(0, 0, 0, 0.8) 100%);
+    width: 100%;
+    height: 360px;
+}
+
+.movie-info-container {
+    background-color:rgb(226, 226, 226);
+    
+    height: 500px;
+    width: 1400px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto 0px auto;
+    justify-content: space-between;
+
+    align-items: stretch;
+}
+
+
+.poster-and-overview {
+    display: flex;
+}
+
+.overview {
+    margin-top:auto;
+    margin-bottom: auto;
+    margin-left: 50px;
+    margin-right: 30px;
+    font-size: 28px;
+}
+
+.crew-info-container {
+    background-color:rgb(226, 226, 226);
+    
+    height: 400px;
+    width: 1400px;
+    padding: 40px;
+
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto 80px auto;
+    justify-content: space-between;
+
+    align-items: stretch;
+}
+
+.crew-image {
+    width: 200px;
+}
+
+.crew-name {
+    text-align: center;
+    width: 200px;
+    margin-top:5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.crew-job {
+    text-align: center;
+    width: 200px;
+    margin-top:5px;
+    font-size: 20px;
+    font-weight: 500;
+}
